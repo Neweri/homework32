@@ -37,7 +37,7 @@ def handle_connection(sock, addr):
             except ConnectionError as e:
                 print(f'Ошибка соединения с {addr}: {e}')
                 break
-        print('Отключение пользователя')
+        print(f'Отключение пользователя {addr}')
 
 
 
